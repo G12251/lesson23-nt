@@ -42,3 +42,14 @@ button {
   margin: 0 auto !important;
   padding: 0px 20px;
 }
+
+.work_header {
+  background-color: var(--bgColor-grey);
+}
+.work_header .work_header_content {
+  width: 100%;
+  max-width: 733px;
+}
+.work_header .work_header_content p, .work_header .work_header_content h2 {
+  text-align: center;
+}

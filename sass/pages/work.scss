@@ -1,1 +1,16 @@
 @import "../global";
+
+.work_header{
+    background-color: var(--bgColor-grey);
+    .work_header_content{
+        
+        
+        width: 100%;
+        max-width: 733px;
+        p, h2  {
+            text-align: center;
+        }
+
+    }
+}
+
