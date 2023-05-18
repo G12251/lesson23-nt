@@ -222,5 +222,18 @@ button {
   transition: 0.5s;
 }
 .work_contact_us a:hover {
-  background: #FDE4A6;
+  background: #fde4a6;
+}
+
+@media (max-width: 750px) {
+  .template_designers .ap-tab-container .active-tab.ap-tab-content {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 650px) {
+  .work_header .work_header_content h2,
+  .template_designers .ap-tab-container .content_template h3,
+  .work_contact_us h1 {
+    font-size: 34px;
+  }
 }
